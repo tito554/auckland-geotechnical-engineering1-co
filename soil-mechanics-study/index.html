@@ -124,6 +124,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#0A2540) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 <nav class="navbar">
 <div class="logo-area" data-logo-link="1" onclick="window.location.href=\'../\'" style="cursor:pointer;margin-right:2.5rem;flex-shrink:0">
@@ -179,7 +215,7 @@ header.hero, .hero { position: relative !important; }
 <section class="section"><h2>Standards that apply</h2>
 <hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
 <p>NZS 4203:1992 — General structural design and actions, AS/NZS 1289.6.3.1 — Standard Test Method for SPT, NZS 4402 — Standard Practice for Classification of Soils (USCS), NZS 3404:1997 — Steel structures standard (reference for foundation loads)</p></section>
-<section class="section"><h2>FAQ</h2><details><summary>What depth should a soil mechanics study reach in Auckland?</summary><p>For most residential sites on the Isthmus, the borehole depth should extend to at least 6 m, or to refusal on Waitemata sandstone. On the North Shore or in South Auckland where soft alluvial deposits exist, depths of 10–12 m are common to reach competent bearing strata.</p></details><details><summary>How much does a soil mechanics study cost in Auckland?</summary><p>A standard residential study with 2 boreholes and basic lab testing ranges from NZ$4,810 to NZ$7,690. Commercial studies with 4–6 boreholes and advanced triaxial testing range from NZ$9,200 to NZ$15,500. The final price depends on site access, borehole depth, and the number of lab tests required.</p></details><details><summary>What is the difference between a soil mechanics study and a geotechnical investigation?</summary><p>A soil mechanics study focuses on the physical and mechanical properties of the soil — shear strength, compressibility, permeability — usually for foundation design. A broader geotechnical investigation may also include slope stability, groundwater modelling, and seismic hazard <a data-interlink="1" href="../foundations-fill/">analysis</a>. The soil mechanics study is the core data set that feeds into any larger geotechnical assessment.</p></details></section>
+<section class="section"><h2>FAQ</h2><details><summary>What depth should a soil mechanics study reach in Auckland?</summary><p>For most residential sites on the Isthmus, the borehole depth should extend to at least 6 m, or to refusal on Waitemata sandstone. On the North Shore or in South Auckland where soft alluvial deposits exist, depths of 10–12 m are common to reach competent bearing strata.</p></details><details><summary>How much does a soil mechanics study cost in Auckland?</summary><p>A standard residential study with 2 boreholes and basic lab testing ranges from NZ$4,810 to NZ$7,690. Commercial studies with 4–6 boreholes and advanced <a href="/triaxial/">triaxial</a> testing range from NZ$9,200 to NZ$15,500. The final price depends on site access, borehole depth, and the number of lab tests required.</p></details><details><summary>What is the difference between a soil mechanics study and a geotechnical investigation?</summary><p>A soil mechanics study focuses on the physical and mechanical properties of the soil — shear strength, compressibility, permeability — usually for foundation design. A broader geotechnical investigation may also include slope stability, groundwater modelling, and seismic hazard <a data-interlink="1" href="../foundations-fill/">analysis</a>. The soil mechanics study is the core data set that feeds into any larger geotechnical assessment.</p></details></section>
 <section class="block map-block" style="padding:3rem 1.5rem">
 <div style="max-width:1200px;margin:0 auto">
 <h2 style="margin-bottom:.8rem;font-weight:700">Location and service area</h2>

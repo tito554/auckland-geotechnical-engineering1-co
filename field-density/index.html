@@ -124,6 +124,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#0A2540) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 <nav class="navbar">
 <div class="logo-area" data-logo-link="1" onclick="window.location.href=\'../\'" style="cursor:pointer;margin-right:2.5rem;flex-shrink:0">
@@ -189,7 +225,7 @@ header.hero, .hero { position: relative !important; }
 <section class="section"><h2>Standards that apply</h2><p>NZS 4402 – Standard Test Method for Density and Unit Weight of Soil in Place by Sand-Cone Method, NZS 4402:1986 – Methods of Testing Soils for Civil Engineering Purposes, NZTA T/1 – Specification for Compaction of Earthworks</p></section>
 <section class="section"><h2>FAQ</h2>
 <hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
-<details><summary>How much does a field density test cost in Auckland?</summary><p>A standard sand cone test in Auckland typically costs between NZ$160 and NZ$220 per test, including on-site labor and laboratory moisture determination. Volume discounts apply for projects requiring 20 or more tests.</p></details><details><summary>When should I use the sand cone method instead of a nuclear gauge?</summary><p>Use the sand cone method when you need a direct, non-radiometric measurement, especially on clay-rich soils where nuclear gauges can be inaccurate. It is also preferred for small test areas or where radiation safety is a concern.</p></details><details><summary>Can the sand cone test be used on wet or saturated fills?</summary><p>The reference range for this service in Auckland is NZ$160 - NZ$220. The final price depends on the project scope and volume.</p></details><details><summary>What is the minimum number of tests required for a typical Auckland subdivision?</summary><p>Most Auckland council compliance plans require one field density test per 200 m² of fill area for each lift, with a minimum of three tests per layer. Your engineer will specify exact frequency based on the compaction specification.</p></details></section>
+<details><summary>How much does a field density test cost in Auckland?</summary><p>A standard sand cone test in Auckland typically costs between NZ$160 and NZ$220 per test, including on-site labor and <a href="/laboratory/">laboratory</a> moisture determination. Volume discounts apply for projects requiring 20 or more tests.</p></details><details><summary>When should I use the sand cone method instead of a nuclear gauge?</summary><p>Use the sand cone method when you need a direct, non-radiometric measurement, especially on clay-rich soils where nuclear gauges can be inaccurate. It is also preferred for small test areas or where radiation safety is a concern.</p></details><details><summary>Can the sand cone test be used on wet or saturated fills?</summary><p>The reference range for this service in Auckland is NZ$160 - NZ$220. The final price depends on the project scope and volume.</p></details><details><summary>What is the minimum number of tests required for a typical Auckland subdivision?</summary><p>Most Auckland council compliance plans require one field density test per 200 m² of fill area for each lift, with a minimum of three tests per layer. Your engineer will specify exact frequency based on the compaction specification.</p></details></section>
 <section class="block map-block" style="padding:3rem 1.5rem">
 <div style="max-width:1200px;margin:0 auto">
 <h2 style="margin-bottom:.8rem;font-weight:700">Location and service area</h2>

@@ -124,6 +124,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#0A2540) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 <nav class="navbar">
 <div class="logo-area" data-logo-link="1" onclick="window.location.href=\'../\'" style="cursor:pointer;margin-right:2.5rem;flex-shrink:0">
@@ -178,7 +214,7 @@ header.hero, .hero { position: relative !important; }
 </section>
 <section class="section"><h2>Standards that apply</h2>
 <hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
-<p>NZS 3404:1997 (Steel structures – retaining walls), NZS 4203:1992 (General structural design – seismic provisions), NZGS 2016 (Deep excavation design guideline), Eurocode 7 (EN 1997-1:2004) – for limit state design</p></section>
+<p>NZS 3404:1997 (Steel structures – retaining walls), NZS 4203:1992 (General structural design – <a href="/seismic/">seismic</a> provisions), NZGS 2016 (Deep excavation design guideline), Eurocode 7 (EN 1997-1:2004) – for limit state design</p></section>
 <section class="section"><h2>FAQ</h2><details><summary>What is the typical cost range for geotechnical design of deep excavations in Auckland?</summary><p>For a standard basement excavation (8-12 m depth) with shoring design and groundwater control, costs typically range between NZ$3.600 and NZ$14.720, depending on site complexity, number of boreholes, and monitoring requirements. Larger projects or those with difficult ground conditions may exceed this range.</p></details><details><summary>What depth of excavation requires a formal geotechnical design?</summary><p>In Auckland, any excavation deeper than 1.5 m near a structure or 3 m in open ground should have a formal geotechnical design under NZS 3404 and the Building Act 2004. Deeper excavations — over 6 m — always require a detailed design with numerical modeling and instrumentation.</p></details><details><summary>How does Auckland's volcanic geology affect deep excavation design?</summary><p>Volcanic ash and basalt layers can be highly variable in thickness and strength, and buried volcanic conduits may channel groundwater. The East Coast Bays Formation contains weak sandstone and mudstone that soften when exposed to air. Design must account for these heterogeneities through staged excavation and real-time monitoring.</p></details><details><summary>What is the difference between temporary and permanent shoring design?</summary><p>Temporary shoring is designed for short-term use during construction, often using soldier piles and timber lagging with a factor of safety of 1.2–1.3. Permanent shoring must meet durability requirements, resist long-term groundwater pressures, and often uses secant pile walls or diaphragm walls with a factor of safety of 1.5 or higher. Both follow NZS 3404 but permanent designs require more rigorous corrosion protection and drainage provisions.</p></details></section>
 <section class="block map-block" style="padding:3rem 1.5rem">
 <div style="max-width:1200px;margin:0 auto">

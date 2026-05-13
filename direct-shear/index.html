@@ -124,6 +124,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#0A2540) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 <nav class="navbar">
 <div class="logo-area" data-logo-link="1" onclick="window.location.href=\'../\'" style="cursor:pointer;margin-right:2.5rem;flex-shrink:0">
@@ -169,7 +205,9 @@ header.hero, .hero { position: relative !important; }
 <div class="sub-svc"><div class="sub-svc-num" style="color:#EAB308;font-weight:700;font-size:.85rem;letter-spacing:.1em">01</div><h3 style="color:#0C1B33;font-size:1.1rem;margin:.3rem 0 .5rem">Consolidated-Drained (CD) Direct Shear</h3><p style="color:#333;line-height:1.65;font-size:.93rem">For cohesive soils where drainage is expected during construction, we run CD tests with full pore pressure dissipation. This simulates long-term loading conditions and gives the effective stress parameters (c', ø') needed for slope stability and <a data-interlink="1" href="../retaining-wall-design/">retaining wall design</a>. Test duration varies from 2 to 6 hours per specimen.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#EAB308;font-weight:700;font-size:.85rem;letter-spacing:.1em">02</div><h3 style="color:#0C1B33;font-size:1.1rem;margin:.3rem 0 .5rem">Quick Undrained Direct Shear</h3><p style="color:#333;line-height:1.65;font-size:.93rem">For granular soils and fill materials, we perform quick undrained tests to measure the undrained shear strength (su). This is critical for short-term stability analyses of excavations and embankments in Auckland's saturated volcanic ash soils. Results are available within 1 hour after specimen setup.</p></div>
 </div>
 </div>
-</section>
+<section class="block" style="padding:1.5rem"><div style="max-width:1200px;margin:0 auto"><p style="margin-top:0">This service complements our <a href="/laboratory/">laboratory testing</a> work for a complete project analysis.</p></div></section>
+
+    </section>
 <section class="section"><h2>Standards that apply</h2><p>NZS 4402/D3080M-11 (Standard Test Method for Direct Shear Test of Soils Under Consolidated Drained Conditions), NZS 4404:2010 (Land Development and Subdivision Infrastructure – Geotechnical Investigation), NZGS Guidelines for Soil and Rock Strength Characterization (2017)</p></section>
 <section class="section"><section class="block video-block" style="padding:2rem 1.5rem"><div style="max-width:720px;margin:0 auto"><h2 style="margin-bottom:1rem;font-weight:700;font-size:1.4rem">Process video</h2><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px"><iframe src="https://www.youtube.com/embed/3wAh28UPxHI" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" loading="lazy" allowfullscreen></iframe></div></div></section>
 <h2>FAQ</h2>

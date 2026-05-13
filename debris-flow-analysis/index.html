@@ -124,6 +124,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#0A2540) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 <nav class="navbar">
 <div class="logo-area" data-logo-link="1" onclick="window.location.href=\'../\'" style="cursor:pointer;margin-right:2.5rem;flex-shrink:0">
@@ -178,7 +214,7 @@ header.hero, .hero { position: relative !important; }
 </section>
 <section class="section"><h2>Standards that apply</h2>
 <hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
-<p>NZGS 2016 — Landslide Risk Assessment Guidelines, NZS 4203:1992 — General Structural Design and Design Loadings (seismic slope factor), AASHTO M 288-17 — Geotextile Specification for Erosion Control in Debris Basins</p></section>
+<p>NZGS 2016 — <a href="/landslide-assessment/">Landslide Risk Assessment</a> Guidelines, NZS 4203:1992 — General Structural Design and Design Loadings (seismic slope factor), AASHTO M 288-17 — Geotextile Specification for Erosion Control in Debris Basins</p></section>
 <section class="section"><h2>FAQ</h2><details><summary>What triggers debris flows in the Auckland region?</summary><p>Most debris flows in Auckland are triggered by intense or prolonged rainfall that saturates the colluvium layer overlying the Waitematā Group sandstone or East Coast Bays formation. The 100-year ARI storm can deliver 120 mm in 24 hours, which is enough to mobilize loose material on slopes steeper than 25 degrees.</p></details><details><summary>How much does a debris flow analysis cost in Auckland?</summary><p>The cost typically ranges between NZ$2,340 and NZ$7,260, depending on catchment size, model complexity, and whether LiDAR data is already available. A basic desktop assessment for a single gully is at the lower end, while a full numerical model with field mapping for a multi-hectare subdivision sits at the higher end.</p></details><details><summary>What data do you need to run the debris flow model?</summary><p>We require a 1 m or 1.5 m LiDAR DEM, rainfall IDF curves for the specific catchment, <a data-interlink="1" href="../soil-classification/">soil classification</a> from test pits or boreholes, and any historical landslide inventory for the area. If no inventory exists, we perform a field reconnaissance to map old scars and deposit lobes.</p></details></section>
 <section class="block map-block" style="padding:3rem 1.5rem">
 <div style="max-width:1200px;margin:0 auto">
