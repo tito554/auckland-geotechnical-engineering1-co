@@ -1,363 +1,495 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap-0.9">
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/active-passive-anchor-design/</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/base-isolation-seismic-design/</loc>
+    <lastmod>2026-04-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/bearing-capacity-analysis/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/cbr-study-road-design/</loc>
+    <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/collapsible-soil-evaluation/</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/debris-flow-analysis/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/diaphragm-wall-design/</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/differential-settlement-analysis/</loc>
+    <lastmod>2026-03-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/direct-shear/</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/driven-pile-design/</loc>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/dynamic-compaction-design/</loc>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/electrical-resistivity-ves/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/expansive-soil-evaluation/</loc>
+    <lastmod>2026-03-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/exploratory-pit/</loc>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/factor-safety/</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/field-density/</loc>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/field-permeability/</loc>
+    <lastmod>2026-04-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/field-vane-shear/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/flexible-pavement-design/</loc>
+    <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://auckland.geotechnical-engineering1.co/foundations/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/foundations-fill/</loc>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/geocell-design/</loc>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/geomembrane-specification/</loc>
+    <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://auckland.geotechnical-engineering1.co/geophysics/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/geotechnical-analysis-soft-soil/</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/geotechnical-design-deep-excavations/</loc>
+    <lastmod>2026-04-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/geotechnical-drainage-design/</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/geotechnical-excavation-monitoring/</loc>
+    <lastmod>2026-04-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/geotechnical-instrumentation/</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/geotechnical-road-drainage/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/geotechnical-slope-monitoring/</loc>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/grain-size-analysis/</loc>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://auckland.geotechnical-engineering1.co/ground-improvement/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/ground-penetrating-radar/</loc>
+    <lastmod>2026-03-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/grouting-design/</loc>
+    <lastmod>2026-05-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/hvsr-microtremor-survey/</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://auckland.geotechnical-engineering1.co/in-situ-testing/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://auckland.geotechnical-engineering1.co/investigation/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/jet-grouting-design/</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://auckland.geotechnical-engineering1.co/laboratory/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/landfill-geotechnics/</loc>
+    <lastmod>2026-04-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/landslide-assessment/</loc>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/lime-cement-stabilization/</loc>
+    <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/mechanically-stabilized-earth/</loc>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/menard-pressuremeter/</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/micropile-design/</loc>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/organic-soil-management/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/pavement-subgrade-design/</loc>
+    <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/pile-foundation-design/</loc>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/pile-skin-friction-vs/</loc>
+    <lastmod>2026-03-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/preloading-design/</loc>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/preloading-surcharge-design/</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/refraction-reflection/</loc>
+    <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/residual-soil-characterization/</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/retaining-wall-design/</loc>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/rigid-pavement-design/</loc>
+    <lastmod>2026-04-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/road-embankment-design/</loc>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/road-subgrade-design/</loc>
+    <lastmod>2026-04-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://auckland.geotechnical-engineering1.co/roadway/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://auckland.geotechnical-engineering1.co/seismic/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/seismic-amplification-analysis/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/seismic-foundation-design/</loc>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/seismic-microzonation/</loc>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/settlement-analysis/</loc>
+    <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/shallow-foundation-design/</loc>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/shear-wave-velocity/</loc>
+    <lastmod>2026-04-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/sheet-pile-wall-design/</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/site-response-analysis/</loc>
+    <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/slope-stability-analysis/</loc>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/slope-stabilization-design/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://auckland.geotechnical-engineering1.co/slopes-amp-walls/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/soil-classification/</loc>
+    <lastmod>2026-03-31</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/soil-erosion-analysis/</loc>
+    <lastmod>2026-04-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/soil-mechanics-study/</loc>
+    <lastmod>2026-04-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/soil-stabilization-roads/</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/standard-penetration/</loc>
+    <lastmod>2026-04-21</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/stone-column-design/</loc>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/triaxial/</loc>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://auckland.geotechnical-engineering1.co/underground-excavations/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/undisturbed-sampling/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://auckland.geotechnical-engineering1.co/vibrocompaction-design/</loc>
+    <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
 </urlset>
